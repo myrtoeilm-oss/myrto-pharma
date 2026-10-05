@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 48" role="img" aria-labelledby="title desc">
+  <title id="title">Myrto</title>
+  <desc id="desc">Myrto wordmark with three rising bars</desc>
+  <rect width="160" height="48" rx="8" fill="#fbfaf5"/>
+  <g transform="translate(12 11)">
+    <rect x="0" y="12" width="7" height="14" rx="3.5" fill="#8db59e" transform="skewX(-14)"/>
+    <rect x="10" y="3" width="7" height="23" rx="3.5" fill="#254b47" transform="skewX(-14)"/>
+    <rect x="20" y="8" width="7" height="18" rx="3.5" fill="#e58b73" transform="skewX(-14)"/>
+  </g>
+  <text x="53" y="31" fill="#254b47" font-family="Georgia, serif" font-size="22" font-weight="700" letter-spacing="-1.2">Myrto</text>
+</svg>
