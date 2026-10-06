@@ -19,3 +19,12 @@ body{color:var(--ink);background:var(--paper);line-height:1.6}button,input,selec
 /* Group each recall prompt with its independently revealed answer. */
 .recall-question-group{display:grid;gap:24px}.recall-question-unit{min-width:0}.recall-question-unit .mode-recall-question-panel{margin-bottom:12px}.recall-question-unit+.recall-question-unit{border-top:1px solid var(--border,#d9d6c8);padding-top:24px}.recall-question-unit .mode-model-answer{margin-top:0}.recall-question-unit h2{overflow-wrap:anywhere}
 .site-announcement{color:#254b47;white-space:normal;overflow-wrap:anywhere}.announcement-copy{white-space:pre-wrap}.participation-link{display:inline-flex;align-items:center;justify-content:center;gap:10px;max-width:100%;padding:11px 18px;background:#254b47;color:#fff;border:1px solid #254b47;border-radius:8px;text-decoration:none;font-family:'Noto Sans Arabic',sans-serif;font-size:15px;font-weight:600;line-height:1.7}.announcement-copy+.participation-link{margin-top:14px}.participation-link:hover{background:#183d38}.participation-link:focus-visible{outline:3px solid #b07828;outline-offset:3px}
+
+/* Optional PDF attachments, scoped to the existing reader. */
+.pdf-list{display:grid;gap:20px;min-width:0;width:100%;margin:24px 0;grid-column:1 / -1}
+.pdf-document{min-width:0;border:1px solid var(--line,#d9d6c8);border-radius:12px;padding:clamp(14px,3vw,24px);background:var(--paper-bright,#fffdf7)}
+.pdf-heading{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:14px}.pdf-heading strong{font-size:17px;overflow-wrap:anywhere;min-width:0}.pdf-heading .pill{flex-shrink:0}
+.pdf-actions{display:flex;flex-wrap:wrap;gap:10px}.pdf-actions a{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;min-height:44px;max-width:100%;font-family:var(--body)}
+.pdf-preview{margin-top:16px}.pdf-preview summary{cursor:pointer;min-height:44px;padding:10px 0;font-weight:600;font-family:var(--body);font-size:15px}
+.pdf-help{color:#52655c;font-size:14px;line-height:1.8;margin:8px 0 14px}.pdf-frame{display:block;width:100%;height:65vh;height:65dvh;min-height:320px;max-height:850px;border:1px solid var(--line,#d9d6c8);border-radius:6px;background:#eee}
+@media(max-width:640px){.pdf-actions a{flex:1 1 130px}.pdf-list{margin:20px 0}.pdf-frame{height:60vh;height:60dvh;min-height:280px}}
